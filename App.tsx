@@ -915,7 +915,7 @@ export default function LaserWarApp() {
                      <div className="font-mono text-[9px] space-y-0.5 h-16 overflow-hidden">
                         {[0, 1, 2, 3].map(i => (
                           <div key={i} className="truncate flex items-center text-emerald-400">
-                             <span className="opacity-50 mr-1 text-[#4B5320]">></span>
+                             <span className="opacity-50 mr-1 text-[#4B5320]">&gt;</span>
                              {logs[i] || <span className="opacity-20">...</span>}
                           </div>
                         ))}
